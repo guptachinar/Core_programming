@@ -1,0 +1,11 @@
+public class countdown {
+    public static void main(String[] args) {
+        // Countdown from 10 to 1 using a for loop
+        for (int i = 10; i >= 1; i--) {
+            System.out.println("Countdown: " + i);
+        }
+
+        // Print "Blast off!" after the countdown
+        System.out.println("Blast off!");
+    }
+}
